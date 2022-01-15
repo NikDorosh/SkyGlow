@@ -38,6 +38,7 @@ const startButton = gui.add( obj, 'Start' ); 	// button
 const stopButton = gui.add( obj, 'Stop' ).disable(); 	// button
 const folder2 = gui.addFolder( 'Lowpass' );
 folder2.add(obj,'NumberOfSamples',1,50,1);
+const folder3 = gui.addFolder( 'SomeFolder' );
 
 init();
 animate();
